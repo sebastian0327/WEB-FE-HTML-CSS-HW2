@@ -1,0 +1,225 @@
+.grid-item {
+ 
+    padding: 10px;
+ 
+  }
+  
+  .aside{
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+
+    text-align: center;
+    border: 4px solid #f0f0f0;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    color: #1a1a1a
+  }
+
+  .item-2 {
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+    padding: 20px 20px 0px 20px;
+    color: #122b52;
+    font-size: 30px;
+  }
+
+  .item-3 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 6;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+  }
+
+  .item-5 {
+    grid-column: 4 / 6;
+    grid-row: 2 / 4;
+    margin-right: 50px;
+    
+  }
+
+  .item-4{
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+   
+  }
+
+  .item-6 {
+    grid-column: 5 / 6;
+    grid-row: 4 / 6;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-left: 30px;
+    border-radius: 20px 0 0px 20px;
+    border: 4px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0px;
+    padding: 0px;
+    background-color: #fffffff5;
+  }
+
+
+  .item-left{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+   
+  }
+
+  .ppi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+  }
+
+  .item-right{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .grid-container-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+    padding: 0px;
+    background-color: #fffffff8;
+    padding-top: 40px;
+  }
+
+  .pieFotoP{
+    font-size: 15px;
+  }
+
+  .containerImg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    column-gap: 70px;
+  }
+
+  .buttonDF{
+    width: 100px;
+    height: 40px;
+    background-color: #119DA4;
+    color:#f0f0f0;
+    border-radius: 5px;
+    border-color: #f0f0f0;
+  }
+
+  .buttonDF:hover{
+    color: #28559D;
+    background-color: #AEECEF;
+  }
+
+  .stylingImgOtro {
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 10px 10px 15px 0px #0000006e;
+    align-self: center;
+  }
+
+  .stylingImgRef{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .justColum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .stylingImg2{
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 0px #0000006e;
+  }
+
+  .infoVend{
+    display: flex;
+    justify-content:  space-evenly;
+    flex-direction: row;
+    align-content:  center;
+    
+  }
+
+  .mainImg{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    border: 4px solid #f0f0f0;
+    margin-right: 100px;
+  }
+
+  #name{
+    width: 400px;
+  }
+
+  #email{
+    width: 300px;
+  }
+
+  #tel{
+    width: 200px;
+  }
+
+  #comentarios{
+    width: 600px;
+    height: 100px;
+  }
+
+  .headPage{  
+    background-color: #122b52;
+    text-align: center;
+    color:#f0f0f0;
+  }
+
+  body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 0px;
+    padding: 0px;
+    background-color: #fffffff5;
+    background-image: url(../WEB-FE-HTML-CSS-HW2-SEBASTIANBARANDICAOQUENDO/img/abstract-white-background-wavy-blue-lines-vector.jpg);
+  }
+
+  head{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+  footer{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background:#122b52;
+    color:#ffffff;
+    
+  }
